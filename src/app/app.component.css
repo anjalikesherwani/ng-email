@@ -1,0 +1,45 @@
+form { 
+    
+    justify-content: center; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    width: 500px; 
+} 
+
+div{
+    background-color: rgb(161, 243, 215);
+    width: 500px;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10%;
+    
+}
+input { 
+    padding: 10px; 
+    border-radius: 10px; 
+    border: 1px solid rgb(red, green, blue); 
+ 
+    :is(&.ng-invalid.ng-touched) { 
+        border: 1px solid red; 
+    } 
+} 
+ 
+ 
+button { 
+    padding: 10px; 
+    border-radius: 10px; 
+    background-color: rgb(19, 96, 19); 
+    color: white; 
+    cursor: pointer; 
+} 
+ 
+button:disabled { 
+    background-color: aliceblue; 
+    color: black; 
+    cursor: not-allowed; 
+}
+
+
